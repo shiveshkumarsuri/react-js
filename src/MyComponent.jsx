@@ -1,4 +1,4 @@
-import React, {useState, usState} from 'react';
+import React, {useState} from 'react';
 
 function MyComponent(){
 
