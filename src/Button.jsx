@@ -1,17 +1,10 @@
 function Button(){
-
-    const style = {    
-            backgroundColor: 'hsl(200, 100%, 50%)',
-            color: 'white',
-            border: 'none',
-            cursor: 'pointer',
-            padding: '10px 20px',
-            borderRadius: '5px'
-    }
-
+    let count = 0;
+    const handleClick = (e) =>{
+        e.target.textContent="OUCH"
+    };
     return(
-        <button style={style}> Click Me</button>
+        <button onClick={(e) => handleClick(e)}> Click Me</button>
     );
 }
-
 export default Button
