@@ -1,10 +1,10 @@
-import EventHandlerOnChange from './EventHandlerOnChange.jsx'
+import ColorPicker from './ColorPicker.jsx'
 
 function App() {
 
   return(
     <>
-    <EventHandlerOnChange />
+    <ColorPicker />
     </>
   );
 }
