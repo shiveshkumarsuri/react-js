@@ -13,6 +13,7 @@ function List(props){
                                         fruit.calories <= 150
                                     );
 
+                        //List item with "KEY" for React to uniquely identify each list element
     const listItems = lowCalFruits.map(fruit =>   
                                         <li key={fruit.id}>
                                             {fruit.name}: &nbsp;

@@ -1,16 +1,11 @@
 function Button(){
 
-    const style = {    
-            backgroundColor: 'hsl(200, 100%, 50%)',
-            color: 'white',
-            border: 'none',
-            cursor: 'pointer',
-            padding: '10px 20px',
-            borderRadius: '5px'
-    }
+    const handleEvent = () => console.log("I am clicked!");
+
+    const handleEvent2 = (name) => console.log(`${name} clicked Me`);
 
     return(
-        <button style={style}> Click Me</button>
+        <button onClick={() => handleEvent2("Shivesh")}> Click Me</button>
     );
 }
 
