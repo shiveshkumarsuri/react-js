@@ -1,10 +1,10 @@
-import Counter from './Counter.jsx'
+import EventHandlerOnChange from './EventHandlerOnChange.jsx'
 
 function App() {
 
   return(
     <>
-    <Counter />
+    <EventHandlerOnChange />
     </>
   );
 }
