@@ -1,10 +1,10 @@
-import ArrayStateChange from './ArrayStateChange.jsx'
+import ObjectArrayStateChange from './ObjectArrayStateChange.jsx'
 
 function App() {
 
   return(
     <>
-    <ArrayStateChange />
+    <ObjectArrayStateChange />
     </>
   );
 }
