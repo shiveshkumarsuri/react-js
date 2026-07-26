@@ -1,10 +1,10 @@
-import UpdaterFunction from './UpdaterFunction.jsx'
+import ObjectStateChange from './ObjectStateChange.jsx'
 
 function App() {
 
   return(
     <>
-    <UpdaterFunction />
+    <ObjectStateChange />
     </>
   );
 }
