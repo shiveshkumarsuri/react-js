@@ -1,10 +1,10 @@
-import ObjectArrayStateChange from './ObjectArrayStateChange.jsx'
+import ToDoList from './ToDoList.jsx'
 
 function App() {
 
   return(
     <>
-    <ObjectArrayStateChange />
+    <ToDoList />
     </>
   );
 }
